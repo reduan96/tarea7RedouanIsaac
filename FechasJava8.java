@@ -14,10 +14,13 @@ import java.time.Month;
 import java.time.MonthDay;
 import java.time.Period;
 import java.time.YearMonth;
+<<<<<<< HEAD
 import java.time.format.DateTimeFormatter;
 import java.time.format.TextStyle;
 import java.time.temporal.ChronoUnit;
 import java.util.Locale;
+=======
+>>>>>>> parent of 30e65bf... Suma y resta de fechas
 
 /**
  *
@@ -78,8 +81,8 @@ public class FechasJava8 {
             System.out.println("Su tarjeta ha caducado");
         }
         
-        /*OPERACIONES CON FECHAS. SUMA, RESTA DE DIAS, SEMANAS, AÑOS, ETC*/
         
+<<<<<<< HEAD
         // Sumar semanas
         LocalDate semanaSiguiente = hoy.plus(1, ChronoUnit.WEEKS);
         System.out.println("Dentro de una semana " + semanaSiguiente);
@@ -164,6 +167,8 @@ public class FechasJava8 {
         System.out.println("Fecha sin formato " + ya);
         System.out.println("Fecha con formato " + fechaString2);
         
+=======
+>>>>>>> parent of 30e65bf... Suma y resta de fechas
     }
     
 }
